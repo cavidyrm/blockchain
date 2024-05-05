@@ -8,7 +8,7 @@ RUN cd /app && \
     pip install -r requirements.txt
 
 # Add actual source code.
-ADD bc.py /app
+ADD blockchain.py /app
 
 EXPOSE 5000
 
